@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="555" pageHeight="802" columnWidth="535" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="18d51ba4-642a-4658-84e8-b4d730a68756">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="628" splitType="Stretch">
+			<rectangle>
+				<reportElement isPrintRepeatedValues="false" x="25" y="27" width="502" height="569" uuid="f8a128d1-66ab-4c4e-b2d5-20c1d5807d42"/>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="134" y="44" width="274" height="51" uuid="a06857a6-4e34-4972-b3d6-a6cecc3774fe"/>
+				<textElement textAlignment="Center">
+					<font size="30" isBold="false"/>
+				</textElement>
+				<text><![CDATA[The Electronic Store]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="75" y="138" width="59" height="20" uuid="bfc59ffe-ed5d-4948-b9c6-11dcd3c5e865"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Invoice No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="134" y="138" width="13" height="20" uuid="9f8a2209-81f0-4504-b814-7f243a5221e2"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="219" y="85" width="102" height="20" uuid="c7c3a854-82bd-4808-ac2f-81a4221c2e45"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sales Invoice]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="342" y="138" width="77" height="20" uuid="4134de93-a6e2-4c4b-8bfc-e5ba60ea1534"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date OF Sale:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="419" y="138" width="59" height="20" uuid="71e77830-7b43-4301-a028-18cd4b7fe992"/>
+				<text><![CDATA[05/06/2020]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="47" y="180" width="87" height="20" uuid="32710e46-5e27-4013-a3d6-0f563d9c9126"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Customer Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="134" y="180" width="32" height="20" uuid="e15c3b52-b93c-44f9-bf93-316d909d59ce"/>
+				<text><![CDATA[Demo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="47" y="235" width="77" height="20" uuid="5b348665-0948-442f-adfd-1319052b7f8a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Product Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="142" y="235" width="77" height="20" uuid="737d502f-7589-468d-9578-42efe86eb7ce"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Product Brand]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="240" y="235" width="91" height="20" uuid="8e07afbb-e326-477d-82c6-ae8cc1f989dd"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Product Qauntity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="353" y="235" width="66" height="20" uuid="42d67820-570d-497e-8891-30e5fc13cff8"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Unit Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="439" y="235" width="51" height="20" uuid="20f4dded-7b91-4efd-98af-c966bc1783ea"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="65" y="267" width="23" height="20" uuid="3cc5d9ff-c012-4af3-968e-65a565383178"/>
+				<text><![CDATA[a50]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="65" y="299" width="23" height="20" uuid="96fd038e-0bab-4db8-9916-de6f91dbeb79"/>
+				<text><![CDATA[a30]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="65" y="334" width="23" height="20" uuid="6c2c3f34-2774-41bf-b6ad-d2ccdb398045"/>
+				<text><![CDATA[a70]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="124" y="267" width="100" height="20" uuid="8eac8492-13b0-453c-9f19-04fbbbc5658f"/>
+				<text><![CDATA[samsung electronics]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="124" y="299" width="100" height="20" uuid="619229b5-e2d7-4834-b0b8-4ec9335729fc"/>
+				<text><![CDATA[samsung electronics]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="124" y="334" width="100" height="20" uuid="c9443746-37f6-4503-bf77-a440efc4645a"/>
+				<text><![CDATA[samsung electronics]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="271" y="267" width="23" height="20" uuid="81886976-db77-475e-af52-4080a63143bd"/>
+				<text><![CDATA[20]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="271" y="299" width="23" height="20" uuid="8bcc8c5d-9837-4332-beab-9fc2fee677b3"/>
+				<text><![CDATA[30]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="271" y="334" width="23" height="20" uuid="7885183b-a32a-4ec0-b42d-bae3e4d0697b"/>
+				<text><![CDATA[50]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="354" y="267" width="37" height="20" uuid="4dcbd082-bdd9-4111-936f-f88ea39e6567"/>
+				<text><![CDATA[15000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="353" y="299" width="38" height="20" uuid="99debbff-ff66-4f2d-8537-9aadef4d3747"/>
+				<text><![CDATA[10000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="353" y="334" width="37" height="20" uuid="ba2755d8-cbb6-44fa-baff-357ad9f0ce21"/>
+				<text><![CDATA[20000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="439" y="267" width="51" height="20" uuid="4d00ffbe-c174-4aa6-a3fc-51a67ba5a550"/>
+				<text><![CDATA[300000.0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="439" y="299" width="51" height="20" uuid="39d14b01-42e7-4315-af61-c3c7f4cc9516"/>
+				<text><![CDATA[300000.0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="439" y="334" width="51" height="20" uuid="b0349a35-c876-480c-9a2f-1ebc48e77258"/>
+				<text><![CDATA[1000000.0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="142" y="460" width="77" height="20" uuid="5db01e34-9aec-43d3-9509-f12f631e66cf"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Qauntity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="337" y="460" width="71" height="20" uuid="45552ad1-545f-4ef8-b99c-ffb38e940531"/>
+				<textElement>
+					<font isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Total Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="271" y="460" width="23" height="20" uuid="62a597da-77e5-46a0-900e-fc7862510802"/>
+				<text><![CDATA[100]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="439" y="460" width="51" height="20" uuid="009f6c71-7700-40a1-bb64-ddc6e6f9333f"/>
+				<text><![CDATA[1600000.0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="337" y="496" width="71" height="20" uuid="cd7025ec-3242-475b-a862-d05d7865c72b"/>
+				<textElement>
+					<font isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Grand Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement isPrintRepeatedValues="false" mode="Opaque" x="439" y="496" width="51" height="20" uuid="3c6c9580-a217-40d5-9944-f12fee1a9ded"/>
+				<text><![CDATA[1600000.0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="337" y="544" width="53" height="20" uuid="e4e3106f-a171-4abb-a900-dbe4042f92ea"/>
+				<textElement>
+					<font isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Signature]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>
